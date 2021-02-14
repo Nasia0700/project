@@ -4,5 +4,117 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
+	margin: 0;
 	padding: 0;
+}
+
+header {
+	box-shadow: 0px 1px 0px #E5E9F2;
+}
+
+.phone {
+	margin: 197px 0;
+}
+
+.container {
+	width: 1102px;
+	margin: 0 auto;
+}
+
+.nav-left {
+	display: inline-block;
+	margin: 22px 0;
+}
+
+.nav-left__link:hover {
+	text-decoration: underline;
+}
+
+.nav-left__img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav-right {
+	float: right;
+	margin: 16px 0;
+	margin-left: -4px;
+}
+
+.nav-right__img {
+	margin-left: 13px;
+}
+
+.container-top:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+a {
+	font-family: "Manrope-Semibold", sans-serif;
+	font-size: 14px;
+	margin-left: 32px;
+	color: black;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.phone-text {
+	display: inline-block;
+	width: 540px;
+	margin-right: 38px;
+	vertical-align: middle;
+}
+
+.phone-text__title {
+	font-family: "Manrope-ExtraBold", sans-serif ;
+	font-size: 62px; /*72px - слишком большой шрифт*/
+	margin-bottom: 16px;
+}
+
+.phone-text__subtitle {
+	font-family: "Manrope-Regular", sans-serif;
+	font-size: 18px;
+	margin-bottom: 32px;
+}
+
+button {
+	font-family: "Manrope-Semibold", sans-serif;
+	font-size: 20px;
+	color: white;
+	border: 0;
+   padding: 16px 41px;
+   border-radius: 8px;
+   outline: none;
+   cursor: pointer;
+   background-color: #8C30F5;
+}
+
+button:hover {
+	background-color: #7D0EFB;
+}
+
+.phone-img {
+	display: inline-block;
+	position: relative;
+	width: 524px;
+	margin-left: -4px;
+	vertical-align: middle;
+}
+
+.phone-img__phone {
+	margin-left: 54px;
+}
+
+.phone-img__card-1 {
+	position: absolute;
+	top: -26px;
+   left: -47px;
+}
+
+.phone-img__card-2 {
+	position: absolute;
+	bottom: -31px;
+   right: -43px;
 }
