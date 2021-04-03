@@ -1,0 +1,55 @@
+@font-face {
+	font-family: "PlayfairDisplay-Bold";
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/PlayfairDisplay-Bold.woff)
+}
+
+@font-face {
+	font-family: "PlayfairDisplay-Regular";
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/PlayfairDisplay-Regular.woff)
+}
+
+@font-face {
+	font-family: "OpenSans-SemiBold";
+	font-style: normal;
+	font-weight: 600;
+	src: url(../fonts/OpenSans-SemiBold.woff)
+}
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/OpenSans-Regular.woff)
+}
+
+@font-face {
+	font-family: "AvenirNextCyr-Regular";
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/AvenirNextCyr-Regular.woff)
+}
+
+@font-face {
+	font-family: "AvenirNextCyr-Medium";
+	font-style: normal;
+	font-weight: 500;
+	src: url(../fonts/AvenirNextCyr-Medium.woff)
+}
+
+@font-face {
+	font-family: "AvenirNextCyr-Demi";
+	font-style: normal;
+	font-weight: 600;
+	src: url(../fonts/AvenirNextCyr-Demi.woff)
+}
+
+@font-face {
+	font-family: "Roboto-Regular";
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/Roboto-Regular.woff)
+}
