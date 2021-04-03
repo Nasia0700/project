@@ -1,0 +1,5 @@
+$('.rev').slick({
+    dots: true
+});
+
+
